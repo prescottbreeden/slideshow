@@ -6,10 +6,46 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>index.html</title>
 	<link rel="stylesheet" href="public/css/style.css">
-	<script src="public/app.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="public/js/app.js"></script>
 </head>
 <body>
-	<h1>Welcome to index.html!<h1>
-	<p>github.com/prescottbreeden/SASS-create-project-script</p>
+	<section class="slideshow">
+		<div class="slideshow__container">
+			<div id="slide1" class="slideshow__container--slide">
+				<img src="public/images/artwork/zelda.jpg" alt="">
+				<p>The Legends of Zelda</p>
+			</div>
+			<div id="slide2" class="slideshow__container--slide">
+				<img src="public/images/artwork/contra.jpg" alt="">
+				<p>Contra</p>
+			</div>
+			<div id="slide3" class="slideshow__container--slide">
+				<img src="public/images/artwork/megaman2.jpg" alt="">
+				<p>Mega Man 2</p>
+			</div>
+			<div id="slide4" class="slideshow__container--slide">
+				<img src="public/images/artwork/metroid.jpg" alt="">
+				<p>Metroid</p>
+			</div>
+			<div id="slide5" class="slideshow__container--slide">
+				<img src="public/images/artwork/punchout.jpg" alt="">
+				<p>Punchout</p>
+			</div>
+		</div>
+	
+		<div class="slideshow__controls">
+			<div id="slideshow_back" class="slideshow__controls--back">
+				<span>back</span>
+			</div>
+			<div id="slideshow_logo" class="slideshow__controls--logo">
+				<span>Slotify</span>
+			</div>
+			
+			<div id="slideshow_forward" class="slideshow__controls--forward">
+				<span>forward</span>
+			</div>
+		</div>
+	</section>
 </body>
 </html>
